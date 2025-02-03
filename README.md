@@ -128,13 +128,13 @@ Antes de começar, certifique-se de ter os seguintes itens instalados na sua má
 1. **Clone o repositório**  
    Abra o terminal e execute o seguinte comando para clonar o repositório do projeto:
    ```bash
-   git clone https://github.com/giuliabugatti09/Churn-Prediction-Credit-Card.git
+   git clone https://github.com/giuliabugatti09/bank_credit_card_churn_predicition.git
    ```
 
 2. **Navegue até o diretório do repositório clonado**  
    Após clonar o repositório, navegue até a pasta do projeto:
    ```bash
-   cd Churn-Prediction-Credit-Card
+   cd bank_credit_card_churn_predicition
    ```
 
 3. **Crie um ambiente virtual**  
