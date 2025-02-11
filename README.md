@@ -1,6 +1,6 @@
 # **Bank's Credit Card Service Churn Prediction**
 
-<p align="center"> <img src="images/Blue and Black Modern Credit Card Hacks Tips and Tricks Instagram Post.png" width="100%"> </p>
+<p align="center"> <img src="https://github.com/giuliabugatti09/bank_credit_card_churn_predicition/blob/main/images/Carta%CC%83o%20De%20Cre%CC%81dito%20i%CC%81cones%20em%20vetor%20livre%20criados%20por%20Flat%20Icons.jpeg" width="100%"> </p>
 
 # **1. Descrição**
 
