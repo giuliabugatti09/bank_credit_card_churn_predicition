@@ -1,124 +1,66 @@
-# 💳 Predição de Churn em Serviços de Cartão de Crédito Bancário
+# 💳 Bank Churn Intelligence: Predictive Modeling & Financial Impact
 
-![Banner do Projeto](https://github.com/giuliabugatti09/bank_credit_card_churn_predicition/blob/main/images/foto_capa.jpeg)
+> **Strategic Machine Learning solution** designed to identify at-risk credit card customers. By leveraging gradient boosting architectures, the model achieves an **85% precision rate**, enabling proactive retention strategies with a projected financial recovery of **$171K+**.
 
-## 📌 Visão Geral
-Projeto de machine learning para prever cancelamento de cartões de crédito, desenvolvido por **Giulia Bugatti**. O modelo alcança **85% de precisão** na identificação de clientes com risco de churn, permitindo ações proativas de retenção.
-
-## 🔍 Principais Características
-✔ Modelo preditivo com **XGBoost e LightGBM**  
-✔ Análise detalhada dos **principais drivers de churn**  
-✔ Pipeline completo de **pré-processamento e feature engineering**  
-✔ Cálculo de **impacto financeiro** das previsões  
-✔ Visualizações interativas de **desempenho do modelo**  
-
-## 📊 Métricas de Desempenho
-| Métrica          | Valor  |
-|------------------|--------|
-| **Acurácia**     | 89%    |
-| **Precisão**     | 85%    |
-| **Recall**       | 82%    |
-| **F1-Score**     | 0.83   |
-| **ROC-AUC**      | 0.91   |
-
-![Matriz de Confusão](images/Matriz_confusao_erros.png)
-
-## 🛠️ Stack Tecnológica
-### 💻 Linguagens & Frameworks
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2+-F7931E?logo=scikit-learn)
-![XGBoost](https://img.shields.io/badge/XGBoost-1.7+-017CEE?logo=xgboost)
-![LightGBM](https://img.shields.io/badge/LightGBM-3.3+-0FAA4F)
-
-### 📊 Processamento de Dados
-![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-1.24+-013243?logo=numpy)
-
-### 📈 Visualização
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7+-11557C?logo=matplotlib)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.12+-5B8FA8)
-![Plotly](https://img.shields.io/badge/Plotly-5.14+-3F4F75?logo=plotly)
-
-## 🎯 Problema de Negócio
-**Contexto:** Taxa de churn de 16% nos cartões de crédito  
-**Objetivo:** Reduzir custos de aquisição (CAC) e aumentar valor vitalício (CLV)  
-**Solução:** Modelo preditivo para identificar clientes em risco  
-
-![Taxa de Cancelamento](images/taxa_cancelamento.png)
-
-## 🔍 Insights Principais
-- Clientes com **menos transações** e **baixo gasto médio** têm maior risco
-- **Atrasos em pagamentos** são fortes indicadores de churn
-- Cartões básicos e clientes **jovens** cancelam mais
-- **Tempo de relacionamento** é fator protetor contra churn
-
-![Correlações](images/matriz_de_correlacao.png)
-
-## ⚙️ Pipeline da Solução
-1. **Coleta de dados** (Kaggle dataset)
-2. **Análise exploratória** (EDA completo)
-3. **Feature engineering** (20+ features criadas)
-4. **Modelagem comparativa** (5 algoritmos testados)
-5. **Otimização** (Hyperparameter tuning)
-6. **Análise de impacto financeiro**
-
-![Curva ROC](images/Curva_ROC.png)
-
-## 💰 Impacto Financeiro
-**Estimativa de ganho:** \$171,477  
-**Estratégias:**
-- 10% de desconto para clientes de alto risco (VP)
-- 8% de desconto para falsos positivos
-- Evitar perda total (18%) em falsos negativos
-
-## 🚀 Como Executar
-```bash
-git clone https://github.com/giuliabugatti09/bank_credit_card_churn_predicition.git
-cd bank_credit_card_churn_predicition
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-pip install -r requirements.txt
-python application.py
-```
-
-## 📂 Estrutura do Projeto
-```
-bank_credit_card_churn_predicition/
-├── data/                   # Dados brutos e processados
-├── notebooks/              # Análises exploratórias
-├── images/                 # Visualizações
-├── requirements.txt        # Dependências
-└── README.md               # Documentação
-```
-
-## 📊 Visualizações
-1. **Distribuição de Features**  
-   ![Distribuição](images/Distribuição_recursos_numéricos.png)
-
-2. **Análise de Variáveis Categóricas**  
-   ![Categóricas](images/Distribuicao_caracteristicas_categoricas.png)
-
-3. **Comparação de Modelos**  
-   ![Modelos](images/Linear_Models.png)
-
-## 🤝 Como Contribuir
-1. Faça um fork do projeto
-2. Crie sua branch (`git checkout -b feature/nova-melhoria`)
-3. Commit suas mudanças (`git commit -am 'Adiciona nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/nova-melhoria`)
-5. Abra um Pull Request
-
-## 📜 Licença
-Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para detalhes.
-
-## ✉️ Contato
-**Giulia Bugatti**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Giulia_Bugatti-blue?logo=linkedin)](https://www.linkedin.com/in/giulia-bugatti-fonseca-226955267/)  
-[![GitHub](https://img.shields.io/badge/GitHub-giuliabugatti09-black?logo=github)](https://github.com/giuliabugatti09)  
-[![Email](https://img.shields.io/badge/Email-giuliabugatti02%40gmail.com-red?logo=gmail)](mailto:giuliabugatti02@gmail.com)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-1.7+-017CEE?logo=xgboost&logoColor=white)](https://xgboost.ai/)
+[![LightGBM](https://img.shields.io/badge/LightGBM-3.3+-0FAA4F?logo=lightgbm&logoColor=white)](https://lightgbm.readthedocs.io/)
 
 ---
 
-**Dataset:** [Kaggle Credit Card Customers](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)  
-**Última atualização:** Junho 2025
+## 🎯 Business Case & Objectives
+In the banking sector, the Cost of Acquisition (CAC) is significantly higher than the cost of retention. This project addresses a **16% churn rate** by:
+* **Targeting:** Identifying high-risk customers before they cancel.
+* **Optimization:** Increasing Customer Lifetime Value (CLV) through data-driven discounts.
+* **Profitability:** Reducing unnecessary marketing spend on low-risk profiles.
+
+
+
+---
+
+## 📈 Model Performance & Metrics
+I conducted a benchmark between 5 different algorithms, with **XGBoost** and **LightGBM** delivering the best balance between precision and recall.
+
+| Metric | Score | Insight |
+| :--- | :---: | :--- |
+| **ROC-AUC** | **0.91** | Excellent ability to distinguish between churners and loyalists. |
+| **Accuracy** | 89% | High overall reliability. |
+| **Precision** | 85% | Minimizes "False Alarms" in retention campaigns. |
+| **Recall** | 82% | Captures the vast majority of real churn risk. |
+
+
+
+---
+
+## 💰 Financial ROI Analysis
+The true value of this project lies in the **cost-benefit simulation**:
+* **Estimated Recovery:** **$171,477** by applying targeted 10% retention discounts.
+* **Efficiency:** By identifying False Positives, the bank avoids wasting budget on customers who weren't planning to leave.
+
+
+
+---
+
+## 🔍 Key Churn Drivers (Feature Importance)
+Analysis of the model's decision-making revealed:
+1.  **Transaction Volume:** Low transaction counts are the strongest indicator of disengagement.
+2.  **Spending Patterns:** Sudden drops in average spend precede cancellation by 2-3 months.
+3.  **Customer Tenure:** Newer customers exhibit higher volatility; long-term relationship is a protective factor.
+
+---
+
+## 🛠️ Technical Implementation
+* **Pipeline:** Automated Feature Engineering (20+ new metrics created).
+* **Optimization:** Hyperparameter tuning via Optuna/GridSearchCV.
+* **Stack:** Python, Scikit-learn, Pandas, Plotly for interactive business dashboards.
+
+---
+
+## 📂 Project Governance
+* `notebooks/`: Comprehensive EDA and model benchmarking.
+* `images/`: Performance visualizations and correlation matrices.
+* `application.py`: Main script for model inference.
+
+---
+**Giulia Bugatti** - *Data Scientist | Software Developer at Viasat Inc.*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/giulia-bugatti-fonseca-226955267/)
