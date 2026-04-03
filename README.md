@@ -56,10 +56,13 @@ The model identified that **transactional behavior** is more predictive than dem
 
 ---
 
-## 📂 Project Governance & Usage
+## 📂 Project Structure
+
 ```text
-├── notebooks/          # Exploratory Data Analysis 
-├  ├── eda.ipynb  
-├  ├── modelling.ipynb  
-├── requirements.txt    # Project dependencies
-└── README.md           # Documentation
+bank_credit_card_churn_prediction/
+├── notebooks/                # Jupyter notebooks for development
+│   ├── eda.ipynb          # Exploratory Data Analysis & Insights
+│   └── modelling.ipynb    # Model Training, Tuning & Evaluation
+
+├── requirements.txt          # Project dependencies & libraries
+└── README.md                 # Project documentation & business case
