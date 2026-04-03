@@ -63,6 +63,7 @@ bank_credit_card_churn_prediction/
 ├── notebooks/                # Jupyter notebooks for development
 │   ├── eda.ipynb          # Exploratory Data Analysis & Insights
 │   └── modelling.ipynb    # Model Training, Tuning & Evaluation
-
+├── data       # dataset
+│   └── BankChurners.csv
 ├── requirements.txt          # Project dependencies & libraries
 └── README.md                 # Project documentation & business case
