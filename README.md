@@ -65,5 +65,6 @@ bank_credit_card_churn_prediction/
 │   └── modelling.ipynb    # Model Training, Tuning & Evaluation
 ├── data       # dataset
 │   └── BankChurners.csv
+├── .gitignore                # Files to ignore (env, __pycache__, etc.)
 ├── requirements.txt          # Project dependencies & libraries
 └── README.md                 # Project documentation & business case
